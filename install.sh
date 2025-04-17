@@ -8,12 +8,13 @@ tar -xzvf dotFiles.tar.gz
 
 mkdir -p ~/.config/hypr
 mkdir -p ~/Pictures/Wallpapers
+mkdir -p ~/.config/tofi
 
 cd dotFiles
 
 mv waybar ~/.config/waybar
-
 mv ghostty ~/.config/ghostty
+mv tofi ~/.config/tofi
 
 mv binds.conf ~/.config/hypr
 mv rules.conf ~/.config/hypr
