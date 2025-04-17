@@ -7,6 +7,7 @@ cd ~/Downloads
 tar -xzvf dotFiles.tar.gz
 
 mkdir -p ~/.config/hypr
+mkdir -p ~/Pictures/Wallpapers
 
 cd dotFiles
 
@@ -22,6 +23,8 @@ mv hyprland.conf ~/.config/hypr
 mv input.conf ~/.config/hypr
 mv colours.conf ~/.config/hypr
 mv env.conf ~/.config/hypr
+
+mv wall.jpg ~/Pictures/Wallpapers
 
 mv bashScripts ~/
 
