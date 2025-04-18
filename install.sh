@@ -2,8 +2,6 @@ echo 'installing funny :3'
 
 sudo pacman -S waybar ghostty tar unzip upower hyprland-meta flatpak songrec tofi --noconfirm
 
-cd ~/Downloads
-
 tar -xzvf dotFiles.tar.gz
 
 mkdir -p ~/.config/hypr
