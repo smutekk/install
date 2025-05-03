@@ -32,4 +32,6 @@ cd ~
 flatpak install org.vinegarhq.Vinegar
 flatpak install org.vinegarhq.Sober
 
+hyprctl reload
+
 echo 'done setup!!! :33'
