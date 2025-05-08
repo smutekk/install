@@ -4,6 +4,9 @@ sudo pacman -S waybar ghostty tar unzip hyprland-meta-git flatpak songrec tofi -
 
 tar -xzvf dotFiles.tar.gz
 
+mkdir -p ~/Documents
+mkdir -p ~/Music
+mkdir -p ~/Desktop
 mkdir -p ~/Pictures/Wallpapers
 
 cd dotFiles
