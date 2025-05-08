@@ -14,18 +14,15 @@ mv waybar ~/.config/waybar
 mv ghostty ~/.config/ghostty
 mv tofi ~/.config/tofi
 
-mv binds.conf ~/.config/hypr
-mv rules.conf ~/.config/hypr
-mv hyprpaper.conf ~/.config/hypr
-mv startup.conf ~/.config/hypr
-mv hyprland.conf ~/.config/hypr
-mv input.conf ~/.config/hypr
-mv colours.conf ~/.config/hypr
-mv env.conf ~/.config/hypr
+sudo rm -rf ~/.config/hypr
+mv hypr ~/.config/
 
 mv wall.jpg ~/Pictures/Wallpapers
 
 mv bashScripts ~/
+
+mv gtk-3.0 ~/.config/
+mv gtk-4.0 ~/.config/
 
 cd ~
 
