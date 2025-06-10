@@ -1,6 +1,6 @@
 echo 'installing funny :3'
 
-sudo pacman -S waybar ghostty tar unzip hyprland-meta-git flatpak songrec tofi --noconfirm
+sudo pacman -S waybar ghostty unzip flatpak songrec tofi --noconfirm
 
 tar -xzvf dotFiles.tar.gz
 
@@ -9,7 +9,7 @@ mkdir -p ~/Music
 mkdir -p ~/Desktop
 mkdir -p ~/Pictures/Wallpapers
 
-cd dotFiles
+cd newdot
 
 sudo rm -rf ~/.config/waybar
 mv waybar ~/.config/
@@ -35,15 +35,6 @@ mv Old.tar.gz ~/
 mv walltaker ~/Downloads/
 
 cd ~
-
-git clone https://aur.archlinux.org/yay.git
-cd ~/yay
-sudo makepkg -si
-cd ~
-sudo rm -rf ~/yay
-
-flatpak install org.vinegarhq.Vinegar
-flatpak install org.vinegarhq.Sober
 
 hyprctl reload
 
