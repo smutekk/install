@@ -38,4 +38,4 @@ cd ~
 
 hyprctl reload
 
-echo 'done setup!!! :33'
+echo -e 'done setup!!! :33\n pls disable launch-waybar'
